@@ -1,4 +1,4 @@
-<center><img src="images/banner.jpg"  width="700" height="300"></center>
+<center><img src="images/banner.jpg"  width="760" height="325"></center>
 
 # Solution - NASA Pushback to the Future Competition
 
@@ -76,6 +76,8 @@ The model achieved a mean absolute error of 10.7283 on the private validation da
 <center><img src="images/feature_importances.png"  width="400"></center>
 
 ## Authors
+
+[@Brian Hu](https://github.com/BrainHu42)  
 
 [@Brian Hu](https://github.com/BrainHu42)
 [@Nika Chuzhoy](https://github.com/nikac776)
