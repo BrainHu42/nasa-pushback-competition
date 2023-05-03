@@ -23,7 +23,7 @@ General summary of the steps for your solution. Consider questions like:
 
 2. Install the required python packages
 
-3. ...
+3. ..
 
 All of the steps necessary to set up an environment in which your code will run, starting on a fresh system with no dependencies (e.g. a brand new Linux, Mac OS X, or Windows installation).
 
