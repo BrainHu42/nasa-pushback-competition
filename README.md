@@ -78,5 +78,4 @@ The model achieved a mean absolute error of 10.7283 on the private validation da
 ## Authors
 
 [@Brian Hu](https://github.com/BrainHu42)  
-
 [@Nika Chuzhoy](https://github.com/nikac776)
