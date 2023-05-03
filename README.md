@@ -1,3 +1,5 @@
+<center><img src="images/banner.jpg"  width="700" height="300"></center>
+
 # Solution - NASA Pushback to the Future Competition
 
 Caltech "Moles" team respository for predicting pushback times at US airports.  
@@ -7,10 +9,8 @@ Caltech "Moles" team respository for predicting pushback times at US airports.
 ## Overview
 This repository contains code to create and execute a model to predict pushback time (defined as the time between when an airplane arives at and departs from the gate) as specified by the 2023 NASA Pushback to the Future Competition. Given provided data from ten US airports, a CatBoost model is trained separately on each airport following data cleansing and feature extraction. 
 
-
-
 ## Repository Structure
-
+This repository contains separate pipelines for model training and inference. Trained models are stored in the "models" folder.
 
 ```
 nasa-pushback-competition
@@ -30,21 +30,52 @@ nasa-pushback-competition
 
 ## Setup
 
-Here is how you do setup:
+Create and activate virtual environment:
 ```
-codecodecode
+python3 -m venv venv
+source venv/bin/activate
 ```
+
+Install the required python packages:
+```
+pip install -r requirements.txt
+```
+
+If using a different directory structure, update config.py file with the desired data and model paths.
+
+## Hardware
+
+Machine specs and time we used to run our model
+
+* CPU: 2 vCPU
+* GPU: N/A
+* Memory: 25 GB
+* OS: Ubuntu
+* Train duration: 6 hours
+* Inference duration: 15 minutes on the full provided dataset
+
 
 ## Run training
 
-Here is how you run training:
+Execute feature extraction and model training pipeline:
 ```
-codecodecode
+python src/run_training.py
 ```
 
 ## Run inference
 
-Here is how you run inference:
+Generate predictions for sample submission format:
 ```
-codecodecode
+python src/run_inference.py
 ```
+
+## Results
+
+The model achieved a mean absolute error of 10.7283 on the private validation dataset and scored 2nd in the competition. A chart of the model's feature importances (SHAP values) is shown below.
+
+<center><img src="images/feature_importances.png"  width="400"></center>
+
+## Authors
+
+[@Brian Hu](https://github.com/BrainHu42)
+[@Nika Chuzhoy](https://github.com/nikac776)
