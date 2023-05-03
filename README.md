@@ -1,8 +1,6 @@
 # Solution - NASA Pushback to the Future Competition
 
-Caltech "Moles" team respository for a CatBoost model to predict pushback times at US airports.  
-
-[Competition source &rarr;](https://www.drivendata.org/competitions/182/competition-nasa-airport-pushback-prescreened/page/712/)
+<p align="center">Caltech "Moles" team respository for predicting pushback times at US airports.  </p>
 
 <p align="center">
   <a href="https://www.drivendata.org/competitions/182/competition-nasa-airport-pushback-prescreened/page/712/">Competition source &rarr;</a>
