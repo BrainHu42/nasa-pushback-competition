@@ -15,17 +15,17 @@ This repository contains code to create and execute a model to predict pushback 
 ```
 nasa-pushback-competition
 ├── README.md
-├── data
-├── model
-├── requirements.txt
-├── setup.py
+├── data ------------------> holds raw data
+├── model -----------------> holds trained model
+├── requirements.txt ------> lists requirements
+├── setup.py --------------> makes project pip installable
 └── src
     ├── __init__.py
-    ├── config.py
-    ├── make_dataset.py
-    ├── run_inference.py
-    ├── run_training.py
-    └── utils.py
+    ├── config.py ---------> path configuration
+    ├── make_dataset.py ---> runs feature extraction
+    ├── run_inference.py --> pipeline for making predictions
+    ├── run_training.py ---> pipeline for training model
+    └── utils.py ----------> helper functions used for inference
 ```
 
 ## Setup
