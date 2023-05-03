@@ -1,22 +1,28 @@
 # Solution - NASA Pushback to the Future Competition
 
-Caltech "Moles" team respository for a CatBoost model to predict pushback times at US airports.  
+Caltech "Moles" team respository for predicting pushback times at US airports.  
 
-[Competition source &rarr;](https://www.drivendata.org/competitions/182/competition-nasa-airport-pushback-prescreened/page/712/)
+[Competition website &rarr;](https://www.drivendata.org/competitions/182/competition-nasa-airport-pushback-prescreened/page/712/)
 
-<p align="center">
-  <a href="https://www.drivendata.org/competitions/182/competition-nasa-airport-pushback-prescreened/page/712/">Competition source &rarr;</a>
-</p>
+## Overview
+This repository contains code to create and execute a model to predict "pushback time" (defined as the time between when an airplane arives at and departs from the gate) as specified by the 2023 NASA Pushback to the Future Competition. Given provided data from ten US airports, a CatBoost model is trained separately on each airport following data cleansing and feature extraction. 
 
-## Summary
 
-General summary of the steps for your solution. Consider questions like:
 
-- What kind of data preprocessing did you do?
-- What types of models and/or pretrained model backbones did you use? Is your final prediction an ensemble?
-- Did you modify the output of your trained model(s)?
+## Repository Structure
 
-# Setup
+
+```
+  Tree
+  │   README.md
+  │
+  └───tree
+  │   │   main.py
+  │   └───src
+  │       │
+```
+
+## Setup
 
 1. Install the prerequisities
      - Python version <...>
@@ -40,7 +46,7 @@ This should include:
 - All required python packages, including versions. **We recommend listing these clearly in a `requirements.txt` or `environment.yml` file**
 - The expected file structure before inference or training is run
 
-# Hardware
+## Hardware
 
 The solution was run on <...>
 
@@ -50,7 +56,7 @@ Inference time: <...>
 
 Machine specs you used for inference/training, and rough estimates of how long each step took.
 
-# Run training
+## Run training
 
 Instructions for training a model from scratch using your code. Ideally, you will have a main point of entry such as an executable script that runs all steps of the pipeline in a deterministic fashion e.g., a `.py` file, `.sh` file, or Jupyter notebook.
 
@@ -62,7 +68,7 @@ Consider questions like:
     - We make competition solutions open-source to increase the impact of all that hard work. If possible, model weights should be publicly available for download.
 - Does training require network access or any open-source downloads?
 
-# Run inference
+## Run inference
 
 Instructions for generating a final submission using your code. Ideally, you will have a main point of entry to your code such as an executable script that runs all steps of the pipeline in a deterministic fashion e.g., a `.py` file, `.sh` file, or Jupyter notebook.
 
