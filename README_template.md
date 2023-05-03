@@ -13,13 +13,19 @@ This repository contains code to create and execute a model to predict pushback 
 
 
 ```
-  Tree
-  │   README.md
-  │
-  └───tree
-  │   │   main.py
-  │   └───src
-  │       │
+nasa-pushback-competition
+├── README.md
+├── data
+├── model
+├── requirements.txt
+├── setup.py
+└── src
+    ├── __init__.py
+    ├── config.py
+    ├── make_dataset.py
+    ├── run_inference.py
+    ├── run_training.py
+    └── utils.py
 ```
 
 ## Setup
