@@ -1,4 +1,4 @@
-<center><img src="images/banner.jpg"  width="800" height="330"></center>
+<center><img src="images/banner.jpg"  width="800" height="335"></center>
 
 # Solution - NASA Pushback to the Future Competition
 
